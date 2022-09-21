@@ -1,0 +1,63 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@font-face {
+  font-family: "Gilroy Regular";
+  src: local("Gilroy-Regular"), url("/fonts/Gilroy-Regular.ttf") format("truetype");
+  /* font-weight: 100; */
+}
+
+@font-face {
+  font-family: "Gilroy Book";
+  src: local("GilroyBook"), url("/fonts/GilroyBook.ttf") format("truetype");
+  /* font-weight: 100; */
+}
+
+@font-face {
+  font-family: "Gilroy Thin";
+  src: local("Gilroy-Thin"), url("/fonts/Gilroy-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy Light";
+  src: local("Gilroy-Light"), url("/fonts/Gilroy-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Regular"), url("/fonts/Gilroy-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy Medium";
+  src: local("Gilroy-Medium"), url("/fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy Bold";
+  src: local("Gilroy-Bold"), url("/fonts/Gilroy-Bold.ttf") format("truetype");
+}
